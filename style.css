@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Silkscreen', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: grey;
+}
+
+.score {
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+#canvas {
+    border: 1px solid;
+}
+
+.box {
+    margin-bottom: 10px;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.button.active {
+    background-color: rgb(105, 99, 99);
+}
